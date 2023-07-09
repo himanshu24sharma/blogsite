@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: open-sans;
+}
+
+.heading-first{
+  color: #FFACC7;
+}
+
+
+
+.container{
+  background-color: #2583F3;
+  height: 100vh;
+  width: 200vh;
+  background-image: url(../images/compose2.png);
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  position: relative;
+  margin: 0 0 0 0;
+}
+
+.navbar{
+  width: 88%;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-icon {
+  margin: 30px 40px;
+  size: 40px;
+}
+#footer{
+  background-color: #2583F3;
+}
+
+
+
+.logo{
+  width: 180px;
+  cursor: pointer;
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: #d71d27aa;
+  font-size: 20px;
+}
+
+.logo{
+  font-size: 40px;
+  color: #d71d27aa;
+}
+
+.content{
+  width: 100%;
+  position: absolute;
+  top:30%;
+}
+
+.left-col{
+  margin-left: 6%;
+}
+
+.left-col h1{
+  font-size: 90px;
+  color: #fff;
+  line-height: 110px;
+  float: left;
+}
+
+.right-col{
+  float: right;
+  margin-right: 6%;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.third-block{
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.heading{
+  font-size: 60px;
+}
+
+.second-block{
+  background-image: url(../images/compose4.png);
+  text-align: center;
+  padding-top: 40px;
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.blur {
+  font-size: 40px;
+  color: transparent;
+  text-shadow: 0 0 8px #000;
+}
+
+label{
+  display: block;
+  margin-top: 1em;
+}
+.checks label{
+  margin-top: 0;
+}
+
+label:first-of-type{
+  margin-top: 0;
+}
+
+input{
+  padding: .5em;
+  border: solid 1px #999;
+}
+
+textarea{
+  min-height: 8em;
+  min-width: 40%;
+  padding: .5em;
+  border: solid 1px #999;
+}
+
+input[type="submit"]{
+  padding: .5em 1em;
+  border-radius: 6px;
+  background-color: #393646;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: .8em;
+}
+
+.form-group{
+  margin:0 50px 0 50px;
+  text-align: center;
+  color: #0B2447;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.title-form{
+  color: #0B2447;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.social-icon {
+  margin: 30px 40px;
+  size: 40px;
+}

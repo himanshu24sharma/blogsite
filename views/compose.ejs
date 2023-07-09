@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title></title>
+      <link rel="stylesheet" href="css/compose.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Bootstrap Scripts -->
+    
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <label class="logo"><em><strong>JOURNALED</strong></em></label>
+        <ul>
+          <li><a href="/">HOME</a></li>
+        </ul>
+
+      </div>
+      <br><br>
+      <div class="third-block">
+        <h1><p class='heading'>What are you writing for?</p><br>
+            Looking for a tool to record your daily emotions in a reflective journal,<br>
+            keep track of milestones in a food diary,<br>
+            or even record your dreams in a dream journal,<br>
+            we have got you covered. </h1>
+
+
+
+      </div>
+    </div>
+    <br><br>
+    <div class="second-block ">
+
+      <h1 class="title-form"><strong>Please make your entry here! </strong></h1>
+      <br>
+      <br><br>
+      <form class="" action="/compose" method="post">
+        <div class="form-group">
+          <label>Title</label>
+          <input class="form-control form1"  type="text" name="postTitle">
+          <label >Genre</label>
+          <input class="form-control form1" type="text" name="postGenre">
+          <label>Post</label>
+          <textarea class="form-control" name="postBody" rows="5" cols="30"></textarea>
+        </div>
+        <button class="btn btn-secondary btn-lg" type="submit" name="button">Publish</button>
+      </form>
+
+    </div>
+    <footer class="white-section" id="footer">
+        <div class="container-fluid">
+          <i class="social-icon fab fa-lg fa-facebook-f"></i>
+          <i class="social-icon fab fa-lg fa-twitter"></i>
+          <i class="social-icon fab fa-lg fa-instagram"></i>
+          <i class="social-icon fas fa-lg fa-envelope"></i>
+        </div>
+      </footer>
+  </body>
+</html>
