@@ -5,8 +5,10 @@ const ejs = require("ejs");
 const _ = require("lodash");
 const mongoose = require("mongoose");
 
+require('dotenv').config();
+
 const app = express();
-mongoose.connect("mongodb://127.0.0.1:27017/blog");
+mongoose.connect(process.env.MONGO_URL);
 
 
 const homeStartingContent = "All Blogs";
@@ -97,6 +99,6 @@ app.get("/:customGenre",function(req,res){
   
 })
 
-app.listen(3000, function() {
-    console.log("Server started on port 3000");
+app.listen(3001, function() {
+    console.log("Server started on port 3001");
   });
