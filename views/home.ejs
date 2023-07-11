@@ -29,7 +29,7 @@
 
     <section class="colored-section" id="title">
 
-        <div class="container-fluid">
+        <div class="container-fluid ">
     
           <!-- Nav Bar -->
     
@@ -53,10 +53,10 @@
     
       </section>
 
-      <section class="white-section cardpost" id="features">
+      <section class="white-section cardpost cards" id="features">
 
-        <div class="container-fluid" >
-            <div class="card posts" style="width: 60rem; ">
+        <div class="container-fluid " >
+            <div class="card posts">
                 <div class="card-body card-heading">
                   <h1 class="card-title"><%=startingContent%></h1>
                 
@@ -65,8 +65,8 @@
 
   <%  posts.forEach(function(post){ %>
 
-    <div class="card posts" style="width: 60rem; ">
-        <div class="card-body">
+    <div class="card posts " >
+        <div class="card-body" >
           <h1 class="card-title"><%=post.title%></h1>
           <p class="card-text"><%=post.content.substring(0, 100) + " ..."%></p>
           <a href="/posts/<%=post.id%>">Read more</a>

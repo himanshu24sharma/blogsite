@@ -262,4 +262,14 @@ p {
     position: static;
     transform: rotate(0);
   }
+
+  .cards{
+    width: 60rem;
+  }
+}
+
+@media(max-width:992px){
+  .cards{
+    width: 50rem;
+  }
 }
